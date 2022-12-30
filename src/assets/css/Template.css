@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.barra {
+  display: flex;
+  flex: 1;
+  background-color: #eca4ae;
+  padding: 10px;
+  flex-direction: column;
+  font: bold;
+}
+.title {
+  text-align: center;
+  flex: 2;
+  font-size: 2rem;
+  color: white;
+}
+footer {
+  text-align: center;
+}
+.menu {
+  flex: 4;
+  font-size: 1.2rem;
+}
+.submenu {
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #f0c7c7;
+  margin: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: #eca4ae;
+}
+.content {
+  flex: 6;
+}
+.header {
+  background-color: #eca4ae;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px 5px 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card-t {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px 30px 0px;
+  margin: 5rem;
+  height: 70vh;
+  box-shadow: 3px 3px 3px 3px #b4b0b1;
+}
